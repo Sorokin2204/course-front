@@ -1,0 +1,12 @@
+.list {
+  display: grid;
+  min-height: 316px;
+  grid-gap: 50px 20px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.title {
+  font-size: 22px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-weight: 600;
+}

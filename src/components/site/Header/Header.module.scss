@@ -1,0 +1,15 @@
+.wrap {
+  padding-top: 10px;
+  padding-bottom: 15px;
+
+  display: grid;
+  align-items: center;
+  grid-gap: 20px;
+  grid-template-columns: 150px auto 1fr auto auto;
+  color: #fff;
+}
+.logo {
+  cursor: pointer;
+  width: 150px;
+  object-fit: cover;
+}
